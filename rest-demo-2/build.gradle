@@ -7,7 +7,7 @@ plugins {
 
 group = 'tk.restexample2'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
@@ -26,7 +26,7 @@ dependencies {
     //implementation 'org.springdoc:springdoc-openapi-ui:1.2.32'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	implementation 'org.springframework.data:spring-data-rest-hal-browser'
+	implementation 'org.springframework.data:spring-data-rest-hal-explorer'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
